@@ -1,5 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+span{
+    color: #FF5400;
+}
 
 *{
 font-family: 'Work Sans', sans-serif;
 }
+header{
+    padding: 30px 150px;
+}
+
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight:  800px;
+}
+nav > ul {
+    display: flex;
+}
+nav  li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+
+}
+nav li a{
+    text-decoration: none;
+    color:rgb(34, 30, 30) ;
+}
+.banner-content{
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    color: aliceblue;
+    padding: 100px 100px 200px 200px;
+     font-size: 30px;
+}
+.banner-description{
+    color: rgb(190, 187, 187);
+    font-size: 15px;
+}
+.input-feld{
+    
+        max-width: 900px;
+       
+}
+
+
+.banner-section{
+    max-width: 1200px;
+    min-height: 550px;
+    margin: 0 auto;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+    @media screen  and (max-width: 576px) {
+        header{
+            padding: 20px;
+        }
+        nav{
+            flex-direction: column;
+        }
+    }       
+    
